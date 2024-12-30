@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Task from './Components/Task/Tasks';
 
 function App() {
   return (
-    <h1>
-      Hello World!
-    </h1>
+<div>
+<Task />
+</div>
+   
   );
 }
 
